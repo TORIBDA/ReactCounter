@@ -10,10 +10,10 @@ function CounterGroup(props) {
 
     return (
         <div>
+            <strong>Current Counter Size:</strong> {props.counterSize}
             {counterList.map((item, index) => (
                 <Counter key={item + index}></Counter>
             ))}
-            Current Counter Size: {props.counterSize}
         </div>
     );
 }

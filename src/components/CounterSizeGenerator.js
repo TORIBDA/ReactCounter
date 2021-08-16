@@ -11,7 +11,7 @@ function CounterSizeGenerator(props) {
 
     return (
         <div>
-            <span>Size: </span>
+            <span><strong>Size: </strong></span>
             <input type="number" min="0" value={size} onChange={handleChangeSize}></input>
         </div>
     );
