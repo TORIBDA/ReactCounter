@@ -1,5 +1,8 @@
 body {
   background-color:lavender;
+  background: url(https://i.imgur.com/Ic0W4fA.jpeg);    
+  background-size:cover;
+  background-position:center;
 }
 
 h1{
