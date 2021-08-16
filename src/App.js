@@ -1,10 +1,14 @@
-import './App.css';
+import './styles/App.css';
+import "./styles/Counter.css";
 import MultipleCounter from './components/MultipleCounter';
 
 function App() {
   return (
     <div className="App">
-      <MultipleCounter>Test</MultipleCounter>
+      <div className="MultipleCounter">
+        <h1>Hello Counter!</h1>
+          <MultipleCounter></MultipleCounter>
+      </div>
     </div>
   );
 }
