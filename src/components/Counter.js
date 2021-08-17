@@ -6,12 +6,10 @@ function Counter() {
 
     function increase() {
         setNumber(number+1);
-        console.log(number);
     }
 
     function decrease() {
         setNumber(number-1);
-        console.log(number);
     }
 
     return (
