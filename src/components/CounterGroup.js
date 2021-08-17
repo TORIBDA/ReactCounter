@@ -2,7 +2,6 @@ import Counter from "./Counter";
 
 function CounterGroup(props) {
     function generateCounterList() {
-        //size in the input
         return new Array(props.counterSize).fill(Date.now);
     }
 
